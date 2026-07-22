@@ -69,14 +69,14 @@
 
   .steps { display: flex; align-items: flex-start; justify-content: space-between;
            gap: 12px; margin-top: 72px; flex-wrap: nowrap; position: relative; }
-  .step { width: 176px; }
-  .step .art { height: 81px; display: flex; align-items: flex-end; }
+  .step { width: 176px; text-align: center; }
+  .step .art { height: 81px; display: flex; align-items: flex-end; justify-content: center; }
   .step b { display: block; font-size: 14px; font-weight: 900; margin-top: 22px; }
-  .step span { display: block; font-size: 12px; font-weight: 400; margin-top: 6px; max-width: 26ch; }
+  .step span { display: block; font-size: 12px; font-weight: 400; margin: 6px auto 0; max-width: 26ch; }
   .step-arrow { position: absolute; top: 49.5px; transform: translate(-50%, -50%); }
-  svg.step-arrow:nth-of-type(1) { left: calc(16.667% + 2.2px); }
-  svg.step-arrow:nth-of-type(2) { left: calc(50% - 56.5px); }
-  svg.step-arrow:nth-of-type(3) { left: calc(83.333% - 115.2px); }
+  svg.step-arrow:nth-of-type(1) { left: calc(16.667% + 58.7px); }
+  svg.step-arrow:nth-of-type(2) { left: 50%; }
+  svg.step-arrow:nth-of-type(3) { left: calc(83.333% - 58.7px); }
   @media (max-width: 900px) {
     .koii-top { grid-template-columns: 1fr; }
     .steps { justify-content: space-between; gap: 20px; }
@@ -156,7 +156,9 @@
     .koii-copy { text-align: center; padding-left: 20px; padding-right: 20px; }
     .steps { display: grid; grid-template-columns: repeat(2, minmax(150px, 176px));
              justify-content: center; gap: 44px 28px; margin-top: 52px; }
-    .step { width: auto; }
+    .step { width: auto; text-align: center; }          /* célula toda centralizada */
+    .step .art { justify-content: center; }             /* ícone no centro da célula */
+    .step span { margin-left: auto; margin-right: auto; }
   }
 </style>
 </head>
