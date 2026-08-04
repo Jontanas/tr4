@@ -66,6 +66,9 @@
               text-transform: uppercase; line-height: 23px; padding: 12px 16px; }
   .chiplines .chipline + .chipline { margin-top: 6px; }
   .koii-copy { font-size: 14px; line-height: 1.7; padding-top: 6px; }
+  /* nota de configuração do aparelho — recuada e discreta: quem já sabe, pula */
+  .koii-note { font-size: 12px; line-height: 1.7; margin: 56px 0 0;
+               text-align: center; opacity: 0.72; }
 
   .steps { display: flex; align-items: flex-start; justify-content: space-between;
            gap: 12px; margin-top: 72px; flex-wrap: nowrap; position: relative; }
@@ -210,8 +213,8 @@
         <span class="chipline">your EP-133 K.O.&nbsp;II</span>
       </div>
       <p class="koii-copy">Plug in over USB and TR4 recognizes the device, captures true
-      stereo, and arms itself. Press play on the K.O. II — recording starts on the first
-      sound. Stop the groove — the take ends, rewinds and re-arms for the next pass.
+      stereo, and arms itself. Press play on the K.O. II — recording starts on the exact
+      downbeat. Stop the groove — the take ends, rewinds and re-arms for the next pass.
       Record groups A/B/C/D onto four tracks without ever touching your iPhone.</p>
     </div>
 
@@ -233,7 +236,7 @@
           <svg width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M63 45H54V54H63V45Z" fill="#373737"/><path d="M63 36H54V45H63V36Z" fill="#373737"/><path d="M63 18H54V27H63V18Z" fill="#373737"/><path d="M63 9H54V18H63V9Z" fill="#373737"/><path d="M54 0H45V9H54V0Z" fill="#373737"/><path d="M45 0H36V9H45V0Z" fill="#373737"/><path d="M36 0H27V9H36V0Z" fill="#373737"/><path d="M9 45H0V54H9V45Z" fill="#373737"/><path d="M9 36H0V45H9V36Z" fill="#373737"/><path d="M9 27H0V36H9V27Z" fill="#373737"/><path d="M9 18H0V27H9V18Z" fill="#373737"/><path d="M9 9H0V18H9V9Z" fill="#373737"/><path d="M18 0H9V9H18V0Z" fill="#373737"/><path d="M27 0H18V9H27V0Z" fill="#373737"/><path d="M24 54H9V63H24H39H54V54H39H24Z" fill="#373737"/><path d="M36 27L36 36L45 36L45 27L36 27Z" fill="#373737"/><path d="M27 18L27 27L36 27L36 18L27 18Z" fill="#373737"/><path d="M27 36L27 45L36 45L36 36L27 36Z" fill="#373737"/><path d="M18 27L18 36L27 36L27 27L18 27Z" fill="#373737"/><path d="M9 27L9 36L18 36L18 27L9 27Z" fill="#373737"/></svg>
         </div>
         <b>2 — Play</b>
-        <span>Recording starts the instant sound arrives. Zero attack lost.</span>
+        <span>Recording starts on the downbeat — from MIDI, or from the first sound.</span>
       </div>
 
       <svg class="step-arrow" width="96" height="37" viewBox="0 0 96 37" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M9 14H0V23H9V14Z" fill="#EA5C1E"/><path d="M27 14H18V23H27V14Z" fill="#EA5C1E"/><path d="M45 14H36V23H45V14Z" fill="#EA5C1E"/><path d="M63 14H54V23H63V14Z" fill="#EA5C1E"/><path d="M81 14H72V23H81V14Z" fill="#EA5C1E"/><path d="M81 0H72V9H81V0Z" fill="#EA5C1E"/><path d="M96 14H87V23H96V14Z" fill="#EA5C1E"/><path d="M81 28H72V37H81V28Z" fill="#EA5C1E"/></svg>
@@ -244,7 +247,7 @@
           <svg width="63" height="63" viewBox="0 0 63 63" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M45 0L45 9L54 9L54 1.07324e-07L45 0Z" fill="#373737"/><path d="M36 0L36 9L45 9L45 1.07324e-07L36 0Z" fill="#373737"/><path d="M27 0L27 9L36 9L36 1.07324e-07L27 0Z" fill="#373737"/><path d="M18 0L18 9L27 9L27 1.07324e-07L18 0Z" fill="#373737"/><path d="M9 0L9 9L18 9L18 1.07324e-07L9 0Z" fill="#373737"/><path d="M1.07324e-07 9L0 18L9 18L9 9L1.07324e-07 9Z" fill="#373737"/><path d="M1.07324e-07 18L0 27L9 27L9 18L1.07324e-07 18Z" fill="#373737"/><path d="M1.07324e-07 27L0 36L9 36L9 27L1.07324e-07 27Z" fill="#373737"/><path d="M45 54L45 63L54 63L54 54L45 54Z" fill="#373737"/><path d="M36 54L36 63L45 63L45 54L36 54Z" fill="#373737"/><path d="M27 54L27 63L36 63L36 54L27 54Z" fill="#373737"/><path d="M18 54L18 63L27 63L27 54L18 54Z" fill="#373737"/><path d="M9 54L9 63L18 63L18 54L9 54Z" fill="#373737"/><path d="M1.07324e-07 45L0 54L9 54L9 45L1.07324e-07 45Z" fill="#373737"/><path d="M1.07324e-07 36L0 45L9 45L9 36L1.07324e-07 36Z" fill="#373737"/><path d="M54 39L54 54L63 54L63 39L63 24L63 9L54 9L54 24L54 39Z" fill="#373737"/><path d="M18 27L27 27L27 18L18 18L18 27Z" fill="#373737"/><path d="M36 27L45 27L45 18L36 18L36 27Z" fill="#373737"/><path d="M18 36L27 36L27 27L18 27L18 36Z" fill="#373737"/><path d="M36 36L45 36L45 27L36 27L36 36Z" fill="#373737"/><path d="M36 45L45 45L45 36L36 36L36 45Z" fill="#373737"/><path d="M18 45L27 45L27 36L18 36L18 45Z" fill="#373737"/></svg>
         </div>
         <b>3 — Stop</b>
-        <span>The take ends on silence, rewinds to zero and re-arms.</span>
+        <span>The take ends on the spot, rewinds to zero and re-arms.</span>
       </div>
 
       <svg class="step-arrow" width="96" height="37" viewBox="0 0 96 37" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M9 14H0V23H9V14Z" fill="#EA5C1E"/><path d="M27 14H18V23H27V14Z" fill="#EA5C1E"/><path d="M45 14H36V23H45V14Z" fill="#EA5C1E"/><path d="M63 14H54V23H63V14Z" fill="#EA5C1E"/><path d="M81 14H72V23H81V14Z" fill="#EA5C1E"/><path d="M81 0H72V9H81V0Z" fill="#EA5C1E"/><path d="M96 14H87V23H96V14Z" fill="#EA5C1E"/><path d="M81 28H72V37H81V28Z" fill="#EA5C1E"/></svg>
@@ -258,6 +261,11 @@
         <span>Switch tracks between passes and layer your set.</span>
       </div>
     </div>
+
+    <p class="koii-note"><b>Turn on MIDI clock out first.</b> On the K.O. II press
+    SHIFT + ERASE, go to MID → CLK and set it to OUT. That is what makes the device
+    announce play and stop, so TR4 starts and ends the take on the exact beat.
+    Without it TR4 still works — it listens for the audio signal instead.</p>
   </div>
 </section>
 
@@ -293,12 +301,13 @@
     <div class="feature-cols">
       <div>
         <p class="feat"><b>A disc with real physics</b> — drag to scrub with varispeed — even in reverse. Flick it and it spins down like real hardware.</p>
-        <p class="feat"><b>Four-track overdub</b> — record a track while the others play. Mute, solo, volume, pan and non-destructive crop per track.</p>
+        <p class="feat"><b>Four-track overdub</b> — record a track while the others play. Twenty minutes per tape. Mute, solo, volume, pan and non-destructive crop per track.</p>
         <p class="feat"><b>USB stereo in</b> — class-compliant devices record in true stereo at 48 kHz, 32-bit float.</p>
         <p class="feat"><b>Auto-record on USB signal</b> — threshold-armed with noise calibration. Your hardware starts and stops the tape.</p>
-        <p class="feat"><b>Metronome with count-in</b> — 3-2-1 count-in, and a visual beat — screen pulses on the grid when the click would leak into the mic.</p>
+        <p class="feat"><b>MIDI</b> — follows transport from any device that sends it, maps play, stop and record to a pad or footswitch, and shows a live monitor of everything your gear sends.</p>
       </div>
       <div>
+        <p class="feat"><b>Metronome with count-in</b> — 3-2-1 count-in, and a visual beat — screen pulses on the grid when the click would leak into the mic.</p>
         <p class="feat"><b>Disc skins</b> — hold the disc to swap its look. Thirteen designs, from vinyl to street art.</p>
         <p class="feat"><b>Export anywhere</b> — mix or separate stems, as WAV, AIFF or M4A — straight to the share sheet.</p>
         <p class="feat"><b>Auto-save</b> — every take is saved as raw audio plus edits. Reopen projects from the recents list.</p>
