@@ -69,6 +69,7 @@
   /* nota de configuração do aparelho — recuada e discreta: quem já sabe, pula */
   .koii-note { font-size: 12px; line-height: 1.7; margin: 56px 0 0;
                text-align: center; opacity: 0.72; }
+  .koii-note + .koii-note { margin-top: 20px; }
 
   .steps { display: flex; align-items: flex-start; justify-content: space-between;
            gap: 12px; margin-top: 72px; flex-wrap: nowrap; position: relative; }
@@ -266,6 +267,18 @@
     SHIFT + ERASE, go to MID → CLK and set it to OUT. That is what makes the device
     announce play and stop, so TR4 starts and ends the take on the exact beat.
     Without it TR4 still works — it listens for the audio signal instead.</p>
+
+    <p class="koii-note"><b>Still says MIC INTERNAL?</b> When TR4 sees the device, that
+    line changes to EP-133. If it does not, update the K.O. II to the latest firmware —
+    that has fixed it for people. Also make sure the cable carries data and not only
+    power, and that the K.O. II runs on its own power rather than the phone's.
+    On iPhone you need a USB-C model; a Lightning iPhone needs Apple's
+    Lightning to USB 3 Camera Adapter.</p>
+
+    <p class="koii-note"><b>While the K.O. II is plugged in, playback goes out to it.</b>
+    iOS treats a USB device as one input and output pair, and most instruments will not
+    play that sound back — so playback can be silent. Unplug the cable to listen on the
+    phone. Recording is not affected.</p>
   </div>
 </section>
 
